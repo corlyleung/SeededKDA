@@ -1,0 +1,11 @@
+sSrcWordIndices data/EN_NoStop_tr_WS.txt
+sSrcDocIndices data/EN_NoStop_tr_DS.txt
+sSrcWords data/EN_NoStop_WO.txt
+iNoTopics 5
+iNoIterations 100 
+dAlpha 1.0 
+dBeta 0.01
+dMu0 1e-7 
+dTau0 0.7 
+bAllowSeedTopics 1 
+sSeedTopicalWordsPath data/seed.uniq.words
