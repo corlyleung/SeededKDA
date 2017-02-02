@@ -78,7 +78,8 @@ How To Run:
 		to save the model for later use (this is referred as 'save' mode). In the
 		second mode, it can load the saved model and run (referred as 'load');
 
-		Ex: ./a.out <config_file_path> <model_path> 'save/load'
+		Ex: ./src/a.out <config_file_path> <model_path> 'save/load'
+		./src/a.out data/config.reuters output/temp.txt "save"
 
 		If you specify the save mode, then the code runs and dumps the model in
 		the path given. This can be used for later use.
@@ -87,4 +88,4 @@ How To Run:
 
 		Alternatively, you can completely ignore the model argument as follows:
 
-		Ex: ./a.out <config_file_path> 
+		Ex: ./src/a.out <config_file_path> 
